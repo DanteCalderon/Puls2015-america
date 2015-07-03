@@ -10,5 +10,9 @@
 		"socket.io": "^1.3.5",
 		"socket.io-client": "^1.3.5",
 		"uid": "0.0.2"
+	},
+	"scripts": {
+		"build": "browserify app.js > public/app.js -t babelify",
+    "start": "babel-node index.js"
 	}
 }
