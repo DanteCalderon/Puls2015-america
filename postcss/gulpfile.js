@@ -25,7 +25,7 @@ gulp.task('css', function() {
 			browsers: ['> 5%', 'ie 8']
 		})
 	]
-	return gulp.src('./src/*.css')
+	return gulp.src('./src/invie.css')
 		.pipe(postcss(processors))
 		.pipe(gulp.dest('./dist/css'))
 		.pipe(browserSync.stream())
