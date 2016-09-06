@@ -1,4 +1,6 @@
 @import './variables.css';
+@import './iconfonts.css';
+
 /** custom media queries **/
 @custom-media --mobile (max-width: 500px);
 @custom-media --tablet (max-width: 650px);
